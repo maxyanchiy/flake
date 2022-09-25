@@ -21,10 +21,10 @@ template<typename T> void destructorCall(void* ptr)
 class CScopedStackAllocator
 {
 public:
-	explicit						CScopedStackAllocator( CLinearAllocator& alloc );
-									~CScopedStackAllocator();
+	explicit			CScopedStackAllocator( CLinearAllocator& alloc );
+					~CScopedStackAllocator();
 
-	uint8_t* const					Allocate( const std::size_t size );
+	uint8_t* const			Allocate( const std::size_t size );
 
 	template<typename T> T* const	NewObject()
 	{
