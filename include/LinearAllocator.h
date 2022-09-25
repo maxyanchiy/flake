@@ -17,8 +17,8 @@ public:
 
 private:
 	uint8_t*	m_memBlock{ nullptr };
-	std::size_t m_allocationSize{ 0 };
-	std::size_t m_memAvailable{ 0 };
+	std::size_t	m_allocationSize{ 0 };
+	std::size_t	m_memAvailable{ 0 };
 };
 
 }// namespace flake

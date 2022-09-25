@@ -44,8 +44,8 @@ public:
 
 private:
 	CLinearAllocator&	m_alloc;
-	SFinalizer*			m_finalizerChain;
-	void*				m_rewindPoint{ nullptr };
+	SFinalizer*		m_finalizerChain;
+	void*			m_rewindPoint{ nullptr };
 };
 
 }// namespace flake
