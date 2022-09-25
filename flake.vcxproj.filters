@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\LinearAllocator.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ScopedStackAlloc.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{1b412f0f-1270-4b29-adfa-536ed2a8ab73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{70131f33-656c-4c75-b380-290632d4cd9b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\LinearAllocator.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ScopedStackAlloc.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
