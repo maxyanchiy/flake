@@ -10,7 +10,7 @@ namespace flake
 struct SFinalizer
 {
 	void (*DestroyObject) (void* ptr);
-	SFinalizer* m_chain;
+	SFinalizer* m_chain{ nullptr };
 };
 
 template<typename T> void destructorCall(void* ptr)
